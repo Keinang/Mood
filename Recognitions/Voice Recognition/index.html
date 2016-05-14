@@ -139,9 +139,6 @@
                 <p>
                     Press Control-C to copy text.
                 </p>
-                <p>
-                    (Command-C on Mac.)
-                </p>
             </div>
         </div>
     </div>
@@ -337,6 +334,10 @@
         current_style = style;
         copy_button.style.display = style;
         copy_info.style.display = 'none';
+    }
+
+    function getText(){
+        return final_span.innerHTML;
     }
 </script>
 </body>
