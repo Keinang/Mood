@@ -8,4 +8,4 @@ getMood()
 * { 0 - angry    }  
 * { 1 - sad      }    
 * { 2 - surprise }    
-* { 3 - happy }    
+* { 3 - happy    }    
