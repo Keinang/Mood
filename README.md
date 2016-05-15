@@ -1,5 +1,4 @@
 # Mood detection      
-
 ## Usage  
 Click on start   
 
@@ -18,3 +17,5 @@ Click on the microphone
  
 ## APIs  
 getText() - Returns the Voice text
+
+# Twitter Text Analysis
