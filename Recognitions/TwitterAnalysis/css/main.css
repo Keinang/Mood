@@ -29,32 +29,33 @@
 }
 
 .i4twitter_item {
-  width:700px;
-  margin:0 auto 20px;
+	position: relative;
+	padding: 8px;
+}
+
+.ProfileCard-details {
+	min-height: 60px;
+	padding-left: 60px;
 }
 
 .i4twitter_image {
+	position: absolute;
+	top: 8px;
+	left: -4px;
+	width: 64px;
+	height: 64px;
+	border: 2px solid #ccd6dd;
 	border-radius: 5px;
-	margin-top:5px;
 }
 .i4twitter_name {
-	font: bolder 12px Helvetica, Arial, sans-serif;
-	text-decoration: none;
-	color: #333;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-	white-space: nowrap;
-	margin-right:10px;
-	line-height: 70%;
+	font-weight: 700;
+	font-size: 20px;
+	display: inline-block;
 }
 
 .i4twitter_user {
-	font: normal 11px Helvetica, Arial, sans-serif;
-	text-decoration: none;
-	color: #333;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-	white-space: nowrap;
-	margin-right:20px;
-	line-height: 70%;
+	font-size: 20px;
+	color: #8899a6;
 }
 
 .i4twitter_sentiment {
@@ -89,11 +90,9 @@
 }
 
 .i4twitter_body {
-	font: normal 12px Helvetica, Arial, sans-serif;
-	text-decoration: none;
-	color: #333;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-	line-height: 70%;
+	margin-top: 5px;
+	font-size: 20px;
+	line-height: 18px;
 }
 
 .i4twitter_tweet {
